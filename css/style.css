@@ -1,0 +1,80 @@
+/*class id*/
+body{
+	border: 1px solid red;
+}
+*{
+	/*&background-color: lightcyan;*/
+
+}
+.intro {
+	font-size: 20px;
+
+}
+	#hometown{
+	color:#C66C27 ;
+	background-color: white;
+	border: 1px solid;
+}
+ .extra_i{
+	background-color: aqua;
+}
+p{
+	border: 1px dotted;
+}
+p.intro1{
+	border: 1px dashed;
+}
+div,p{
+	font-family: sans-serif;
+}
+div p{
+	border:1px solid;
+}
+div > p{
+	border: 1px solid;
+}
+div+p{
+	border:1px solid; 
+}
+p ~ ul{
+	background-color: beige;
+
+}
+a[target]{
+	background-color: skyblue;
+}
+[title~="rose"]{
+	border: 1px solid;
+}
+div[class^="test"]{
+	background-color: #ffff00;
+}
+div[class$="test"]{
+	background-color:#ffff00 ;
+}
+a:active{
+	background-color: yellowgreen;
+}
+a:visited{
+	color: blue;
+}
+/*p::after{
+	content: "-Lorem ipsum";
+}*/
+/*p::before{
+	content: "Read This-";
+}*/
+
+/*p:first-child{
+	background-color: red;
+}*/
+p::first-letter{
+	font-size: 100%;
+	color: peru;
+}
+input:valid{
+	background-color: yellow;
+}
+input:read-write{
+	background-color: red
+}
